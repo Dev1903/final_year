@@ -1,0 +1,38 @@
+body{
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+}
+.header {
+    background-color: transparent;
+    backdrop-filter: blur(30px);
+    min-height: 80px;
+}
+.naviarea ul li{
+    padding: 0 50px;
+}
+.naviarea ul li a{
+    color: black;
+    font-size: larger;
+}
+.profile i{
+    font-size: x-large;
+}
+.card-container .card{
+    min-height: 200px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: transform ease-in-out 0.3s;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+.card-container .card:hover{
+    transform: scale(1.1);
+    transition: transform ease-in-out 0.3s;
+    cursor: pointer;
+}

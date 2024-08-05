@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,600&family=Ubuntu:wght@500&display=swap');
+
+body{
+    background-color: #F6E9B2;
+}
+.category h2{
+    font-family: "Ubuntu", sans-serif;
+    color: #0A6847;
+}
+.form-control{
+    background-color: #a3e0a1;
+}
+.category-items{
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: transform ease-in-out 0.3s;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+.category-items:hover{
+    transform: scale(1.1);
+    transition: transform ease-in-out 0.3s;
+    cursor: pointer;
+}
+.category-items{
+    padding:10px 0;
+    text-align: center;
+    
+}
+.category-items img{
+    height:150px;    
+}
+.category .item-des{
+    font-family: "Exo 2", sans-serif;
+    font-size: large;
+    padding:10px 0;  
+    color: #7ABA78;
+}
+.input-group-text i {
+    font-size: x-large;
+    color: black;
+}
